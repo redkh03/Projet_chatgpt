@@ -1,0 +1,103 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f4f7f6;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #555;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button[style] {
+  background-color: #f44336;
+}
+
+button[style]:hover {
+  background-color: #d32f2f;
+}
+
+.conversations li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.conversations button {
+  margin-right: 10px;
+}
+
+.conversation-history {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e9f4e9;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message p {
+  margin: 5px 0;
+}
+
+.response {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
